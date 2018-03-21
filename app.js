@@ -644,7 +644,7 @@ function sendListMessage(recipientId) {
                 {
                   title: "View",
                   type: "web_url",
-                  url: "https://peterssendreceiveapp.ngrok.io/collection",
+                  url: "https://www.oculus.com/en-us/touch/",
                   messenger_extensions: true,
                   webview_height_ratio: "tall"
                 }
@@ -655,7 +655,7 @@ function sendListMessage(recipientId) {
               subtitle: "See all our colors",
               default_action: {
                 type: "web_url",
-                url: "https://peterssendreceiveapp.ngrok.io/view?item=100",
+                url: "https://www.oculus.com/en-us/touch/",
                 messenger_extensions: false,
                 webview_height_ratio: "tall"
               }
@@ -666,7 +666,7 @@ function sendListMessage(recipientId) {
               subtitle: "100% Cotton, 200% Comfortable",
               default_action: {
                 type: "web_url",
-                url: "https://peterssendreceiveapp.ngrok.io/view?item=101",
+                url: "https://www.oculus.com/en-us/touch/",
                 messenger_extensions: true,
                 webview_height_ratio: "tall"
               },
@@ -674,7 +674,7 @@ function sendListMessage(recipientId) {
                 {
                   title: "Shop Now",
                   type: "web_url",
-                  url: "https://peterssendreceiveapp.ngrok.io/shop?item=101",
+                  url: "https://www.oculus.com/en-us/touch/",
                   messenger_extensions: true,
                   webview_height_ratio: "tall"
                 }
@@ -912,3 +912,4 @@ app.listen(app.get('port'), function() {
 
 module.exports = app;
 
+  
