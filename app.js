@@ -645,7 +645,6 @@ function sendListMessage(recipientId) {
                   title: "View",
                   type: "web_url",
                   url: "https://www.oculus.com/en-us/touch/",
-                  messenger_extensions: true,
                   webview_height_ratio: "tall"
                 }
               ]
@@ -656,7 +655,6 @@ function sendListMessage(recipientId) {
               default_action: {
                 type: "web_url",
                 url: "https://www.oculus.com/en-us/touch/",
-                messenger_extensions: false,
                 webview_height_ratio: "tall"
               }
             },
@@ -667,7 +665,6 @@ function sendListMessage(recipientId) {
               default_action: {
                 type: "web_url",
                 url: "https://www.oculus.com/en-us/touch/",
-                messenger_extensions: true,
                 webview_height_ratio: "tall"
               },
               buttons: [
@@ -675,7 +672,6 @@ function sendListMessage(recipientId) {
                   title: "Shop Now",
                   type: "web_url",
                   url: "https://www.oculus.com/en-us/touch/",
-                  messenger_extensions: true,
                   webview_height_ratio: "tall"
                 }
               ]        
@@ -912,4 +908,3 @@ app.listen(app.get('port'), function() {
 
 module.exports = app;
 
-  
