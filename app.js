@@ -646,8 +646,7 @@ function sendListMessage(recipientId) {
                   type: "web_url",
                   url: "https://peterssendreceiveapp.ngrok.io/collection",
                   messenger_extensions: true,
-                  webview_height_ratio: "tall",
-                  //fallback_url: "https://peterssendreceiveapp.ngrok.io/"            
+                  webview_height_ratio: "tall"
                 }
               ]
             },
@@ -669,8 +668,7 @@ function sendListMessage(recipientId) {
                 type: "web_url",
                 url: "https://peterssendreceiveapp.ngrok.io/view?item=101",
                 messenger_extensions: true,
-                webview_height_ratio: "tall",
-                //fallback_url: "https://peterssendreceiveapp.ngrok.io/"
+                webview_height_ratio: "tall"
               },
               buttons: [
                 {
@@ -678,8 +676,7 @@ function sendListMessage(recipientId) {
                   type: "web_url",
                   url: "https://peterssendreceiveapp.ngrok.io/shop?item=101",
                   messenger_extensions: true,
-                  webview_height_ratio: "tall",
-                  //fallback_url: "https://peterssendreceiveapp.ngrok.io/"            
+                  webview_height_ratio: "tall"
                 }
               ]        
             }
