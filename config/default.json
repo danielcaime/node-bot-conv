@@ -2,5 +2,5 @@
     "appSecret": "",
     "pageAccessToken": "",
     "validationToken": "",
-    "serverURL": ""
+    "serverURL": "localhost:5000"
 }
