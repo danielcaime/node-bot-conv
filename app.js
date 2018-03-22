@@ -15,8 +15,8 @@ const
   crypto = require('crypto'),
   express = require('express'),
   https = require('https'),  
-  request = require('request'),
-  received = require('./api/received');
+  request = require('request');
+  //received = require('./api/received');
 
 var app = express();
 app.set('port', process.env.PORT || 5000);
@@ -94,9 +94,9 @@ app.post('/webhook', function (req, res) {
       // Iterate over each messaging event
       pageEntry.messaging.forEach(function(messagingEvent) {
         if (messagingEvent.optin) {
-          received.receivedAuthentication(messagingEvent);
+          receivedAuthentication(messagingEvent);
         } else if (messagingEvent.message) {
-          received.receivedMessage(messagingEvent);
+          receivedMessage(messagingEvent);
         } else if (messagingEvent.delivery) {
           receivedDeliveryConfirmation(messagingEvent);
         } else if (messagingEvent.postback) {
