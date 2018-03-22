@@ -68,5 +68,4 @@ const receivedAuthentication = (event) => {
     });  
   }
 
-  module.exports = receivedMessage;
-  module.exports = receivedAuthentication;
+  module.exports = receivedMessage, receivedAuthentication;
