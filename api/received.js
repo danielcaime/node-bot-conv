@@ -1,4 +1,9 @@
 
+// Generate a page access token for your page from the App Dashboard
+//arreglar para que las config esten disponibles en todo el sitio - dcaime
+const PAGE_ACCESS_TOKEN = process.env.PAGE_ACCESS_TOKEN;
+
+
 const receivedAuthentication = (event) => {
 
     var senderID = event.sender.id;
