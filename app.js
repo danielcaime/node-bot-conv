@@ -421,7 +421,8 @@ function sendImageMessage(recipientId) {
       attachment: {
         type: "image",
         payload: {
-          url: SERVER_URL + "/assets/rift.png"
+          url: "https://photos.google.com/photo/AF1QipPoo_J0VxGmnmXY2KX0tNCfVkTOyL2HpE4ETWtE"
+          //url: SERVER_URL + "/assets/rift.png"
         }
       }
     }
