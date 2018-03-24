@@ -421,7 +421,7 @@ function sendImageMessage(recipientId) {
       attachment: {
         type: "image",
         payload: {
-          url: "https://photos.google.com/photo/AF1QipPoo_J0VxGmnmXY2KX0tNCfVkTOyL2HpE4ETWtE"
+          url: "https://lh3.googleusercontent.com/9vy3e1stZMnYzAk0owNJw6_dc9aVupm-anecARn9oCUOUCF9f0NL7DSkto-hxv-p5hftRFNDzXn-n50mZzTq2HRqNXCYLKm-_It6ETeVeRkpibYpCYm-pU9AGeb0na4YUrv2NzCxkNSJHugHG2ZNjJuYDbCaCHUJSy1BbtrsH8w5HuUEaHMFTj5w0YR6C6zJpMdQ7lSLeiZr8TNnRKZwBYX02s8CECplYmko4Swc1tPDX83Ui7bAVYpxmxI1vR1BdZ9MS8LX3NS7fy6ro5AxBxPsr9qNALktmYRKKkCq5CFG63ugL3_ngqvDT_mEv4zzXMP0BWrA0o8fd7_Q4qxGxxvmrNgOOmeSouA5jXqjfAVzWiE-UB_RJtb8FvXW5fAPDAZ7fGIgR1GQMlaoDcBtM63CeKSCsr55nTMf9C4fTxXJupnVx5gscQSFmt46AOC8GWi0y54kaPRgVQyjHZMFScxfzFDGG89lkCW8jqvEoJ8WX-VPJTHFZqWu1Bi8Tc5dz5Z3iUzVGywqT_SHw4lyxLAnzZl03-zUM5wLePAAucVOWDb86cAIQTut_zE7b5jLvigcYeghxG_EzG5rAwKdVBL9d76DovHIz9fXxA=s654-no"
           //url: SERVER_URL + "/assets/rift.png"
         }
       }
@@ -604,7 +604,7 @@ function sendGenericMessage(recipientId) {
           }, {
             title: "touch",
             subtitle: "Your Hands, Now in VR",
-            item_url: "https://www.oculus.com/en-us/touch/",               
+            item_url: "https://lh3.googleusercontent.com/9vy3e1stZMnYzAk0owNJw6_dc9aVupm-anecARn9oCUOUCF9f0NL7DSkto-hxv-p5hftRFNDzXn-n50mZzTq2HRqNXCYLKm-_It6ETeVeRkpibYpCYm-pU9AGeb0na4YUrv2NzCxkNSJHugHG2ZNjJuYDbCaCHUJSy1BbtrsH8w5HuUEaHMFTj5w0YR6C6zJpMdQ7lSLeiZr8TNnRKZwBYX02s8CECplYmko4Swc1tPDX83Ui7bAVYpxmxI1vR1BdZ9MS8LX3NS7fy6ro5AxBxPsr9qNALktmYRKKkCq5CFG63ugL3_ngqvDT_mEv4zzXMP0BWrA0o8fd7_Q4qxGxxvmrNgOOmeSouA5jXqjfAVzWiE-UB_RJtb8FvXW5fAPDAZ7fGIgR1GQMlaoDcBtM63CeKSCsr55nTMf9C4fTxXJupnVx5gscQSFmt46AOC8GWi0y54kaPRgVQyjHZMFScxfzFDGG89lkCW8jqvEoJ8WX-VPJTHFZqWu1Bi8Tc5dz5Z3iUzVGywqT_SHw4lyxLAnzZl03-zUM5wLePAAucVOWDb86cAIQTut_zE7b5jLvigcYeghxG_EzG5rAwKdVBL9d76DovHIz9fXxA=s654-no",               
             image_url: SERVER_URL + "/assets/touch.png",
             buttons: [{
               type: "web_url",
